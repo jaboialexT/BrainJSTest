@@ -1,0 +1,40 @@
+ [
+     {
+        "text":"hi",
+        "category":"greeting"
+     },
+     {
+        "text":"hello",
+        "category":"greeting"
+     },
+     {
+        "text":"sup",
+        "category":"greeting"
+     },
+     {
+        "text":"yo",
+        "category":"greeting"
+     },
+     {
+        "text":"wassup",
+        "category":"greeting"
+     },
+     {
+        "text":"goodbye",
+        "category":"goodbye"
+     },
+     {
+        "text":"see ya",
+        "category":"goodbye"
+     },
+     {
+        "text":"see you",
+        "category":"goodbye"
+     },
+     {
+        "text":"bye",
+        "category":"goodbye"
+     }
+     
+     
+ ]
