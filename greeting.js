@@ -1,6 +1,5 @@
 const brain = require('brain.js');
-const data = require('./data.json');
-
+const data = require('./greetingsData.json');
 const network = new brain.recurrent.LSTM();
 
 const trainingData = data.map(item => ({
@@ -8,8 +7,13 @@ const trainingData = data.map(item => ({
     output: item.category
 }));
 
-network.train(trainingData);
+network.train(trainingData,{
+    iterations: 2000,
+    log: stats=>{
+        console.log(stats)
+    }
+});
 
-const output = network.run("farewell");
+const output = network.run("hello");
 
 console.log(`Category: ${output}`)
