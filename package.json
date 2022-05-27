@@ -1,0 +1,22 @@
+{
+  "name": "brainjstest",
+  "version": "1.0.0",
+  "description": "Testing neural network library Brain.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaboialexT/BrainJSTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaboialexT/BrainJSTest/issues"
+  },
+  "homepage": "https://github.com/jaboialexT/BrainJSTest#readme",
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.15"
+  }
+}
